@@ -1,8 +1,6 @@
 # Confused Agents — Artifact
 
-Reproducible artifact for the paper *Confused Agents: Ambient Authority,
-Delegation Integrity, and the Confused-Deputy Problem in Multi-Principal
-LLM Agent Systems*.
+Reproducible artifact for the paper *Confused Agents*
 
 The artifact contains:
 
