@@ -1,4 +1,4 @@
-# Confused Agents — Artifact
+# Confused Agents
 
 Reproducible artifact for the paper *Confused Agents*
 
