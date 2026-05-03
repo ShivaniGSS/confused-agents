@@ -35,10 +35,6 @@ final outputs to `paper_outputs/`. Total runtime budget: under 4 hours
 on a single machine with API access. LLM responses are cached in
 `results/llm_cache/` keyed by hash of (prompt, model, settings).
 
-## Layout
-
-See `CLAUDE.md` Section 2 for the canonical repository layout, and
-`docs/reproduction.md` for detailed reproduction notes.
 
 ## Threat model and authority calculus
 
