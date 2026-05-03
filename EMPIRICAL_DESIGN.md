@@ -1,9 +1,6 @@
 # EMPIRICAL_DESIGN.md — Empirical evaluation specification
 
-This document specifies the evaluation. It supersedes the original
-CLAUDE.md §8 (attack corpus) and parts of §9 (harness). All other
-CLAUDE.md sections remain authoritative as amended by
-`CLAUDE_MD_CHANGES.md`.
+This document specifies the evaluation.
 
 The evaluation is structured to demonstrate the paper's claims:
 
