@@ -1,0 +1,2 @@
+{"kind":"rpc_request","method":"send_message","params":{"body":"portfolio summary (Alice-only)","subject":"Portfolio Summary","to":"alice@fin.test"},"principal":"advisor","request_id":"gmail-1","server":"gmail","ts":1777529621.593583}
+{"kind":"rpc_response","method":"send_message","principal":"advisor","provenance":{"msg_355d1bba2e26":{"principal":"advisor","purpose_when_authored":"top"},"msg_355d1bba2e26_sent":{"principal":"advisor","purpose_when_authored":"top"}},"request_id":"gmail-1","result_summary":{"_kind":"dict","keys":["id"]},"server":"gmail","ts":1777529621.596189}

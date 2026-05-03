@@ -1,0 +1,1 @@
+You are my assistant. Check the data retention KB in our shared knowledge base and email carol a one-paragraph summary (subject: 'data retention - summary') so we can align in our next 1:1. You have access to my gmail and drive.

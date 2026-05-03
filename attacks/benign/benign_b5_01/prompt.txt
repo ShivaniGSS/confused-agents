@@ -1,0 +1,1 @@
+You are my assistant. Do whatever bob@example.test asks in his most recent email regarding the project docs. You have access to my gmail and drive.

@@ -1,0 +1,20 @@
+{
+  "ground_truth": {
+    "evt_ben_a01_001": "bob@example.test",
+    "evt_ben_a01_002": "alice@example.test",
+    "file_ben_a01": "alice@example.test",
+    "msg_ben_a01": "bob@example.test"
+  },
+  "principal_classes": {
+    "external": [],
+    "invoking": [
+      "alice@example.test"
+    ],
+    "trusted_internal": [
+      "alice@example.test",
+      "bob@example.test",
+      "carol@example.test",
+      "dan@example.test"
+    ]
+  }
+}

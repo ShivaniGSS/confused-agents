@@ -1,0 +1,15 @@
+{
+  "ground_truth": {
+    "msg_a01_001": "bob@example.test",
+    "msg_a01_002": "bob@example.test",
+    "evt_a01_001": "bob@example.test",
+    "evt_a01_002": "mallory@external.test",
+    "file_a01_proposal": "alice@example.test"
+  },
+  "principal_classes": {
+    "invoking": ["alice@example.test"],
+    "trusted_internal": ["alice@example.test", "bob@example.test"],
+    "external": ["mallory@external.test"]
+  },
+  "notes": "Provenance labels are immutable ground truth. The 'author' field on each datum in fixture.json must equal its provenance_label. Adversary (mallory@external.test) controls only evt_a01_002 in this fixture."
+}

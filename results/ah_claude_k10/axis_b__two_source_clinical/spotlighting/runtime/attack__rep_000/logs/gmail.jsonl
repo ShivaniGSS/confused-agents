@@ -1,0 +1,2 @@
+{"kind":"rpc_request","method":"send_message","params":{"body":"contraindication alert","subject":"Contraindication Alert","to":"bob_care@clinic.test"},"principal":"doctor","request_id":"gmail-1","server":"gmail","ts":1777527533.33994}
+{"kind":"rpc_response","method":"send_message","principal":"doctor","provenance":{"msg_d8b949c82200":{"principal":"doctor","purpose_when_authored":"top"},"msg_d8b949c82200_sent":{"principal":"doctor","purpose_when_authored":"top"}},"request_id":"gmail-1","result_summary":{"_kind":"dict","keys":["id"]},"server":"gmail","ts":1777527533.341016}

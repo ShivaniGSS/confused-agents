@@ -1,0 +1,2 @@
+{"kind":"rpc_request","method":"send_message","params":{"body":"alice referral (Alice-only routing)","subject":"Referral","to":"alice@clinic.test"},"principal":"doctor","request_id":"gmail-1","server":"gmail","ts":1777526198.775174}
+{"kind":"rpc_response","method":"send_message","principal":"doctor","provenance":{"msg_0e2ca9fca894":{"principal":"doctor","purpose_when_authored":"top"},"msg_0e2ca9fca894_sent":{"principal":"doctor","purpose_when_authored":"top"}},"request_id":"gmail-1","result_summary":{"_kind":"dict","keys":["id"]},"server":"gmail","ts":1777526198.7777972}

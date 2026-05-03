@@ -1,0 +1,20 @@
+{
+  "ground_truth": {
+    "msg_d3_001": {
+      "principal": "np@clinic.test",
+      "purpose": "clinical-care/patient=alice/billing",
+      "spans": [{"field": "body", "start": 0, "end": 120}]
+    },
+    "file_d3_coord_doc": {
+      "principal": "np@clinic.test",
+      "purpose": "clinical-care/patient=bob/billing",
+      "spans": [{"field": "content", "start": 0, "end": 340}]
+    }
+  },
+  "capability": {
+    "principal": "np@clinic.test",
+    "permitted_tools": ["gmail.send_message"],
+    "purpose": "clinical-care/patient=alice/billing",
+    "note": "Capability is scoped to alice's billing sub-purpose. NP has billing access to both patients, so authority passes. Purpose check should fail: capability subject=alice, invocation subject=bob."
+  }
+}

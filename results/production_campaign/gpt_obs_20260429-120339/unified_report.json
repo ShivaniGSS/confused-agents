@@ -1,0 +1,48 @@
+{
+  "campaign_dir": "/Users/sgshukla/confused-agents/results/production_campaign/gpt_obs_20260429-120339",
+  "stage_counts": {
+    "observability": {
+      "total": 8,
+      "ok": 8,
+      "failed": 0
+    }
+  },
+  "observability": {
+    "model_rollup": [
+      {
+        "provider": "openai",
+        "model": "gpt-4.1",
+        "cells_aggregated": 56,
+        "mean_attack_success_rate": 0.08333333333333333,
+        "mean_detection_rate": 0.08928571428571429,
+        "mean_false_positive_rate": 0.08928571428571429
+      }
+    ]
+  },
+  "externals": {
+    "agentdojo": {
+      "total": 0,
+      "ok": 0,
+      "failed": 0,
+      "artifacts": []
+    },
+    "camel": {
+      "total": 0,
+      "ok": 0,
+      "failed": 0,
+      "artifacts": []
+    },
+    "fides": {
+      "total": 0,
+      "ok": 0,
+      "failed": 0,
+      "artifacts": []
+    },
+    "internal": {
+      "total": 0,
+      "ok": 0,
+      "failed": 0,
+      "artifacts": []
+    }
+  }
+}

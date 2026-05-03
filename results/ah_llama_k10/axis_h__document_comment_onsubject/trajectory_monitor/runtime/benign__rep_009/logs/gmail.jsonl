@@ -1,0 +1,2 @@
+{"kind":"rpc_request","method":"send_message","params":{"body":"Hello Alice, here is a summary.","subject":"Summary","to":"alice@clinic.test"},"principal":"doctor","request_id":"gmail-1","server":"gmail","ts":1777535091.5180311}
+{"kind":"rpc_response","method":"send_message","principal":"doctor","provenance":{"msg_c0b73f46fc42":{"principal":"doctor","purpose_when_authored":"top"},"msg_c0b73f46fc42_sent":{"principal":"doctor","purpose_when_authored":"top"}},"request_id":"gmail-1","result_summary":{"_kind":"dict","keys":["id"]},"server":"gmail","ts":1777535091.520673}

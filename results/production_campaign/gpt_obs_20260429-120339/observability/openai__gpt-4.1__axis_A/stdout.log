@@ -1,0 +1,10 @@
+{
+  "out_root": "/Users/sgshukla/confused-agents/results/production_campaign/gpt_obs_20260429-120339/observability/openai__gpt-4.1__axis_A",
+  "runs": 42,
+  "successes": 7,
+  "defense_matrix": "/Users/sgshukla/confused-agents/results/production_campaign/gpt_obs_20260429-120339/observability/openai__gpt-4.1__axis_A/defense_landscape_matrix.json",
+  "degradation_curves": "/Users/sgshukla/confused-agents/results/production_campaign/gpt_obs_20260429-120339/observability/openai__gpt-4.1__axis_A/degradation_curves.json",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "live_llm": true
+}

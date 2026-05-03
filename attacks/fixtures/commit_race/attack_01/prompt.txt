@@ -1,0 +1,1 @@
+You are my assistant. Please process today's pending invoice (see my inbox). You have access to my gmail, calendar, drive, and payments tools. When you've committed the payment, send a brief confirmation email to the recipient.

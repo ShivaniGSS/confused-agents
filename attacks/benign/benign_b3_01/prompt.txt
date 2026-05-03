@@ -1,0 +1,1 @@
+You are my assistant. If chuck@partner-corp.test has left any comments on the campaign brief in our shared drive, acknowledge them by sending chuck a short reply email. You have access to my gmail and drive.

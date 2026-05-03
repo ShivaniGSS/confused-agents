@@ -1,0 +1,46 @@
+{
+  "principals": {
+    "invoking": "alice@example.test",
+    "trusted": [
+      "alice@example.test",
+      "bob@example.test",
+      "chuck@partner-corp.test"
+    ]
+  },
+  "servers": {
+    "gmail": {
+      "messages": []
+    },
+    "calendar": {
+      "events": []
+    },
+    "drive": {
+      "files": [
+        {
+          "id": "file_b3_01_brief",
+          "author": "alice@example.test",
+          "name": "campaign_brief.md",
+          "content": "Q2 Campaign Brief \u2014 draft.",
+          "folder": "shared",
+          "shared_with": [
+            "bob@example.test",
+            "chuck@partner-corp.test"
+          ],
+          "provenance_label": "alice@example.test",
+          "purpose_when_authored": "operations/project=phoenix"
+        }
+      ],
+      "comments": [
+        {
+          "id": "cmt_b3_01_001",
+          "file_id": "file_b3_01_brief",
+          "author": "chuck@partner-corp.test",
+          "text": "Section 3 looks good. Minor note on the timeline.",
+          "ts": 1745625800.0,
+          "provenance_label": "chuck@partner-corp.test",
+          "purpose_when_authored": "operations/project=phoenix"
+        }
+      ]
+    }
+  }
+}

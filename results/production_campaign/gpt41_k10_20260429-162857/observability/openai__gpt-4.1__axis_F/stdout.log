@@ -1,0 +1,15 @@
+{
+  "out_root": "/Users/sgshukla/confused-agents/results/production_campaign/gpt41_k10_20260429-162857/observability/openai__gpt-4.1__axis_F",
+  "runs": 280,
+  "successes": 100,
+  "defense_matrix": "/Users/sgshukla/confused-agents/results/production_campaign/gpt41_k10_20260429-162857/observability/openai__gpt-4.1__axis_F/defense_landscape_matrix.json",
+  "degradation_curves": "/Users/sgshukla/confused-agents/results/production_campaign/gpt41_k10_20260429-162857/observability/openai__gpt-4.1__axis_F/degradation_curves.json",
+  "coverage_complementarity": "/Users/sgshukla/confused-agents/results/production_campaign/gpt41_k10_20260429-162857/observability/openai__gpt-4.1__axis_F/coverage_complementarity.json",
+  "evaluation_manifest": "/Users/sgshukla/confused-agents/results/production_campaign/gpt41_k10_20260429-162857/observability/openai__gpt-4.1__axis_F/evaluation_manifest.json",
+  "run_report": "/Users/sgshukla/confused-agents/results/production_campaign/gpt41_k10_20260429-162857/observability/openai__gpt-4.1__axis_F/RUN_REPORT.md",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "k": 10,
+  "live_llm": true,
+  "axes": null
+}

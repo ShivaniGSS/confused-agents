@@ -1,0 +1,2 @@
+{"kind":"rpc_request","method":"send_message","params":{"body":"alice genetic referral","subject":"Genetic Referral","to":"alice@health.test"},"principal":"doctor","request_id":"gmail-1","server":"gmail","ts":1777507192.0211148}
+{"kind":"rpc_response","method":"send_message","principal":"doctor","provenance":{"msg_f7fc1d6fd35f":{"principal":"doctor","purpose_when_authored":"top"},"msg_f7fc1d6fd35f_sent":{"principal":"doctor","purpose_when_authored":"top"}},"request_id":"gmail-1","result_summary":{"_kind":"dict","keys":["id"]},"server":"gmail","ts":1777507192.023386}

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "confused-agents"
+version = "0.1.0"
+description = "Artifact for Confused Agents (CCS 2026)."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+include = ["mock_mcp*", "orchestrators*", "capguard*", "harness*", "defenses*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

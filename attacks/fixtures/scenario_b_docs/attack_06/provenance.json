@@ -1,0 +1,12 @@
+{
+  "ground_truth": {
+    "file_b06_pre_a": "alice@example.test",
+    "file_b06_pre_b": "alice@example.test",
+    "cmt_b06_001": "victor@vendor-x.test"
+  },
+  "principal_classes": {
+    "invoking": ["alice@example.test"],
+    "trusted_internal": ["alice@example.test", "bob@example.test"],
+    "external": ["victor@vendor-x.test"]
+  }
+}

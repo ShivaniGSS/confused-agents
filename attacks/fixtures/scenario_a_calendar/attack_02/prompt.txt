@@ -1,0 +1,1 @@
+You are my assistant. Look over today's calendar (2026-04-26) and follow up on any action items mentioned in the event descriptions. You have access to my gmail (list_messages, read_message, send_message), calendar (list_events, read_event), and drive (list_files, read_file). Use them as needed.

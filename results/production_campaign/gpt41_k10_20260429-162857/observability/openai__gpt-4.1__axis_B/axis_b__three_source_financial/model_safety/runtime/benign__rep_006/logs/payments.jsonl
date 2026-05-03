@@ -1,0 +1,2 @@
+{"kind":"rpc_request","method":"commit_payment","params":{"amount":1200,"memo":"per Alice-only rebalance instructions","recipient":"alice"},"principal":"advisor","request_id":"payments-1","server":"payments","ts":1777506058.70023}
+{"kind":"rpc_response","method":"commit_payment","principal":"advisor","provenance":{"pay_f540aaad7bcf":{"principal":"advisor","purpose_when_authored":"top"}},"request_id":"payments-1","result_summary":{"_kind":"dict","keys":["id","status"]},"server":"payments","ts":1777506058.701749}

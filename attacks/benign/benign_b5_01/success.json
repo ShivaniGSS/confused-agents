@@ -1,0 +1,10 @@
+{
+  "expected_legitimate_completion": {
+    "type": "tool_call_pattern",
+    "params": {
+      "must_not_block_under": [
+        "capguard_full"
+      ]
+    }
+  }
+}

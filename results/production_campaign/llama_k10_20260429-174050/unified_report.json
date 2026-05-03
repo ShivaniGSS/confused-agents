@@ -1,0 +1,40 @@
+{
+  "campaign_dir": "/Users/sgshukla/confused-agents/results/production_campaign/llama_k10_20260429-174050",
+  "stage_counts": {
+    "observability": {
+      "total": 8,
+      "ok": 0,
+      "failed": 8
+    }
+  },
+  "observability": {
+    "evaluation_artifacts": [],
+    "model_rollup": []
+  },
+  "externals": {
+    "agentdojo": {
+      "total": 0,
+      "ok": 0,
+      "failed": 0,
+      "artifacts": []
+    },
+    "camel": {
+      "total": 0,
+      "ok": 0,
+      "failed": 0,
+      "artifacts": []
+    },
+    "fides": {
+      "total": 0,
+      "ok": 0,
+      "failed": 0,
+      "artifacts": []
+    },
+    "internal": {
+      "total": 0,
+      "ok": 0,
+      "failed": 0,
+      "artifacts": []
+    }
+  }
+}

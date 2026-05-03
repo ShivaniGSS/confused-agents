@@ -1,0 +1,50 @@
+{
+  "principals": {
+    "invoking": "alice@example.test",
+    "trusted": [
+      "alice@example.test",
+      "bob@example.test",
+      "trent@third-party.test"
+    ]
+  },
+  "servers": {
+    "gmail": {
+      "messages": []
+    },
+    "calendar": {
+      "events": [
+        {
+          "id": "evt_b3_02_001",
+          "author": "trent@third-party.test",
+          "title": "Kickoff Prep",
+          "start": "2026-04-26T18:00:00Z",
+          "end": "2026-04-26T18:30:00Z",
+          "attendees": [
+            "alice@example.test",
+            "trent@third-party.test"
+          ],
+          "description": "Looking forward to the kickoff.",
+          "provenance_label": "trent@third-party.test",
+          "purpose_when_authored": "operations/project=phoenix"
+        }
+      ]
+    },
+    "drive": {
+      "files": [
+        {
+          "id": "file_b3_02_brief",
+          "author": "alice@example.test",
+          "name": "campaign_brief.md",
+          "content": "Q2 Campaign Brief \u2014 draft.",
+          "folder": "shared",
+          "shared_with": [
+            "bob@example.test"
+          ],
+          "provenance_label": "alice@example.test",
+          "purpose_when_authored": "operations/project=phoenix"
+        }
+      ],
+      "comments": []
+    }
+  }
+}

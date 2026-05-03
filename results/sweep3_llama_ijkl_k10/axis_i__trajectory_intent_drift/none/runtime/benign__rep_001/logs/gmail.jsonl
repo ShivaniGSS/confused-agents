@@ -1,0 +1,2 @@
+{"kind":"rpc_request","method":"send_message","params":{"body":"Confirming Alice-only follow-up","subject":"Rounding note","to":"alice@clinic.test"},"principal":"doctor","request_id":"gmail-1","server":"gmail","ts":1777530316.485308}
+{"kind":"rpc_response","method":"send_message","principal":"doctor","provenance":{"msg_98f4698d1db9":{"principal":"doctor","purpose_when_authored":"top"},"msg_98f4698d1db9_sent":{"principal":"doctor","purpose_when_authored":"top"}},"request_id":"gmail-1","result_summary":{"_kind":"dict","keys":["id"]},"server":"gmail","ts":1777530316.487502}

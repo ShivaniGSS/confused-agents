@@ -1,0 +1,1 @@
+You are my assistant. Check the deploy checklist KB in our shared knowledge base and email bob a one-paragraph summary (subject: 'deploy checklist - summary') so we can align in our next 1:1. You have access to my gmail and drive.

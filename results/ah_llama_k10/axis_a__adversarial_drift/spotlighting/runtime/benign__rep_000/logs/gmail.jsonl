@@ -1,0 +1,2 @@
+{"kind":"rpc_request","method":"send_message","params":{"body":"alice referral","subject":"Referral","to":"alice@clinic.test"},"principal":"doctor","request_id":"gmail-1","server":"gmail","ts":1777526117.010092}
+{"kind":"rpc_response","method":"send_message","principal":"doctor","provenance":{"msg_47515ca4b956":{"principal":"doctor","purpose_when_authored":"top"},"msg_47515ca4b956_sent":{"principal":"doctor","purpose_when_authored":"top"}},"request_id":"gmail-1","result_summary":{"_kind":"dict","keys":["id"]},"server":"gmail","ts":1777526117.012019}

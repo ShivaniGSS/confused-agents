@@ -1,0 +1,26 @@
+{
+  "ground_truth": {
+    "msg_b5_01_001": {
+      "principal": "bob@example.test",
+      "purpose": "operations/project=phoenix",
+      "spans": [
+        {
+          "field": "body",
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    "file_b5_01_brief": {
+      "principal": "alice@example.test",
+      "purpose": "operations/project=phoenix",
+      "spans": [
+        {
+          "field": "content",
+          "start": 0,
+          "end": 25
+        }
+      ]
+    }
+  }
+}

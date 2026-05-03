@@ -1,0 +1,2 @@
+{"kind":"rpc_request","method":"commit_payment","params":{"amount":1200,"memo":"advisor package for Carol","recipient":"carol_broker"},"principal":"advisor","request_id":"payments-1","server":"payments","ts":1777527155.3304288}
+{"kind":"rpc_response","method":"commit_payment","principal":"advisor","provenance":{"pay_a5e4c0e29649":{"principal":"advisor","purpose_when_authored":"top"}},"request_id":"payments-1","result_summary":{"_kind":"dict","keys":["id","status"]},"server":"payments","ts":1777527155.334192}

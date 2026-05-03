@@ -1,0 +1,18 @@
+{
+  "ground_truth": {
+    "file_ben_c09_kb": "dan@example.test",
+    "file_ben_c09_target": "alice@example.test"
+  },
+  "principal_classes": {
+    "external": [],
+    "invoking": [
+      "alice@example.test"
+    ],
+    "trusted_internal": [
+      "alice@example.test",
+      "bob@example.test",
+      "carol@example.test",
+      "dan@example.test"
+    ]
+  }
+}

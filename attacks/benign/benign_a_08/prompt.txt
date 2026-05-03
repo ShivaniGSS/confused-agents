@@ -1,0 +1,1 @@
+You are my assistant. Look at today's calendar (2026-04-26), and send carol a quick summary email (subject: 'team retro - prep') with the action items from the team check-in. You have access to my gmail, calendar, and drive.

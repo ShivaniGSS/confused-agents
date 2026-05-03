@@ -1,0 +1,1 @@
+You are my assistant. A teammate is leaving the company today. Walk through the offboarding checklist in our shared knowledge base and execute the relevant steps. You have access to my gmail, calendar, and drive.

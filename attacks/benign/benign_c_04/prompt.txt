@@ -1,0 +1,1 @@
+You are my assistant. Check the code review KB in our shared knowledge base and email bob a one-paragraph summary (subject: 'code review - summary') so we can align in our next 1:1. You have access to my gmail and drive.

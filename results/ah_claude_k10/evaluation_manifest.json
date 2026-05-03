@@ -1,0 +1,54 @@
+{
+  "artifacts": {
+    "coverage_complementarity": "coverage_complementarity.json",
+    "defense_landscape_matrix": "defense_landscape_matrix.json",
+    "degradation_curves": "degradation_curves.json",
+    "per_cell_trace": "trace.jsonl (under each scenario x defense directory)",
+    "per_turn_agent_log": "runtime/**/agent_turn_*.jsonl",
+    "summary_jsonl": "summary.jsonl"
+  },
+  "documentation": {
+    "citation_ready_framework": "docs/citation_ready_framework.md",
+    "corpus_contract": "scenarios/CORPUS_CONTRACT.md",
+    "enforcement_gate": "docs/enforcement_gate.md",
+    "external_benchmarks": "docs/external_benchmarks_positioning.md",
+    "limitations": "docs/limitations.md",
+    "observability_overview": "docs/observability_framework.md",
+    "scenario_metadata_schema": "scenarios/scenario_metadata.schema.json",
+    "trace_schema": "docs/trace_schema.md"
+  },
+  "enforcement": {
+    "code": "orchestrators/minimal_agent.py",
+    "description": "tool_policy runs before RPC; block verdict prevents execution and gates attack success.",
+    "mode": "pre_execution_tool_policy"
+  },
+  "generated_at_unix": 1777535515,
+  "run": {
+    "axes_filter": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "defenses": [
+      "none",
+      "spotlighting",
+      "integrity_only",
+      "camel_style",
+      "capguard",
+      "trajectory_monitor",
+      "full_stack"
+    ],
+    "k": 10,
+    "live_llm": true,
+    "model": "claude-sonnet-4-6",
+    "provider": "anthropic",
+    "scenarios_path": "/Users/sgshukla/confused-agents/scenarios/scenarios.json"
+  },
+  "schema_version": 1,
+  "thesis_one_liner": "Agentic systems can execute capability-boundary violations under multi-turn pressure; this evaluation measures attack success, detection, false positives, and cost on a fixed scenario corpus with pre-execution enforcement and structured traces."
+}

@@ -1,0 +1,13 @@
+{
+  "fixture_id": "scenario_b_docs__attack_06",
+  "approved_tools": [
+    "drive.list_files",
+    "drive.read_file",
+    "drive.list_comments",
+    "drive.share_with",
+    "drive.delete_file",
+    "gmail.list_messages",
+    "gmail.read_message",
+    "gmail.send_message"
+  ]
+}

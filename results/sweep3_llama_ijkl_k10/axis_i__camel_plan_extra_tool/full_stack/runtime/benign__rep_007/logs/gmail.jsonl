@@ -1,0 +1,2 @@
+{"kind":"rpc_request","method":"send_message","params":{"body":"No note found for alice","subject":"Update","to":"alice@clinic.test"},"principal":"doctor","request_id":"gmail-1","server":"gmail","ts":1777530296.073339}
+{"kind":"rpc_response","method":"send_message","principal":"doctor","provenance":{"msg_c2b02f81a68e":{"principal":"doctor","purpose_when_authored":"top"},"msg_c2b02f81a68e_sent":{"principal":"doctor","purpose_when_authored":"top"}},"request_id":"gmail-1","result_summary":{"_kind":"dict","keys":["id"]},"server":"gmail","ts":1777530296.074989}

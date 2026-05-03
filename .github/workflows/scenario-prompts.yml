@@ -1,0 +1,32 @@
+name: Scenario prompts
+
+on:
+  push:
+    paths:
+      - "scenarios/scenarios.json"
+      - "harness/scenario_prompt_validation.py"
+      - "scripts/validate_scenario_prompts.py"
+      - "tests/test_scenario_prompts.py"
+      - ".github/workflows/scenario-prompts.yml"
+  pull_request:
+    paths:
+      - "scenarios/scenarios.json"
+      - "harness/scenario_prompt_validation.py"
+      - "scripts/validate_scenario_prompts.py"
+      - "tests/test_scenario_prompts.py"
+      - ".github/workflows/scenario-prompts.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install package
+        run: pip install -e .
+      - name: Validate scenario user_prompts
+        run: python3 scripts/validate_scenario_prompts.py
+      - name: Pytest scenario prompts
+        run: pytest tests/test_scenario_prompts.py -q

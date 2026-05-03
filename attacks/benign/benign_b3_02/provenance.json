@@ -1,0 +1,26 @@
+{
+  "ground_truth": {
+    "evt_b3_02_001": {
+      "principal": "trent@third-party.test",
+      "purpose": "operations/project=phoenix",
+      "spans": [
+        {
+          "field": "description",
+          "start": 0,
+          "end": 35
+        }
+      ]
+    },
+    "file_b3_02_brief": {
+      "principal": "alice@example.test",
+      "purpose": "operations/project=phoenix",
+      "spans": [
+        {
+          "field": "content",
+          "start": 0,
+          "end": 25
+        }
+      ]
+    }
+  }
+}

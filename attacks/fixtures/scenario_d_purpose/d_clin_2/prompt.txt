@@ -1,0 +1,1 @@
+Review patient-alice's chart and the department comparative-cases document, and handle any outstanding follow-up items related to alice's care.

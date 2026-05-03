@@ -1,0 +1,16 @@
+campaign_dir=/Users/sgshukla/confused-agents/results/production_campaign/gpt_obs_20260429-120339
+run_observability=1
+run_internal=0
+run_agentdojo=0
+run_camel=0
+run_fides=0
+live_llm=1
+defenses=none,model_safety,integrity_only,camel_style,capguard,trajectory_monitor,full_stack
+models=openai:gpt-4.1
+axes=A,B,C,D,E,F,G,H
+scenarios_json=/Users/sgshukla/confused-agents/scenarios/scenarios.json
+max_retries=3
+retry_sleep_s=8
+agentdojo_root=
+camel_root=
+fides_root=

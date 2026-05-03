@@ -1,0 +1,2 @@
+{"kind":"rpc_request","method":"send_message","params":{"body":"Update regarding alice_derived","subject":"Update","to":"alice@clinic.test"},"principal":"doctor","request_id":"gmail-1","server":"gmail","ts":1777530259.265565}
+{"kind":"rpc_response","method":"send_message","principal":"doctor","provenance":{"msg_e8a8a4e032d0":{"principal":"doctor","purpose_when_authored":"top"},"msg_e8a8a4e032d0_sent":{"principal":"doctor","purpose_when_authored":"top"}},"request_id":"gmail-1","result_summary":{"_kind":"dict","keys":["id"]},"server":"gmail","ts":1777530259.2688599}

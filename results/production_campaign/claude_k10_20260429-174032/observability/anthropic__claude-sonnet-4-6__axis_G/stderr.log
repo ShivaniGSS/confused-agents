@@ -1,0 +1,54 @@
+Traceback (most recent call last):
+  File "/Users/sgshukla/anaconda3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/sgshukla/anaconda3/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/sgshukla/confused-agents/harness/run_observability_matrix.py", line 141, in <module>
+    _main()
+  File "/Users/sgshukla/confused-agents/harness/run_observability_matrix.py", line 90, in _main
+    rows = run_matrix(
+  File "/Users/sgshukla/confused-agents/harness/multi_turn_runner.py", line 424, in run_matrix
+    results.append(runner.run_single(run_type="attack", repeat_idx=i))
+  File "/Users/sgshukla/confused-agents/harness/multi_turn_runner.py", line 192, in run_single
+    client = make_client(self.provider)
+  File "/Users/sgshukla/confused-agents/orchestrators/_llm.py", line 410, in make_client
+    return AnthropicClient()
+  File "/Users/sgshukla/confused-agents/orchestrators/_llm.py", line 118, in __init__
+    raise RuntimeError("ANTHROPIC_API_KEY is required for AnthropicClient")
+RuntimeError: ANTHROPIC_API_KEY is required for AnthropicClient
+Traceback (most recent call last):
+  File "/Users/sgshukla/anaconda3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/sgshukla/anaconda3/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/sgshukla/confused-agents/harness/run_observability_matrix.py", line 141, in <module>
+    _main()
+  File "/Users/sgshukla/confused-agents/harness/run_observability_matrix.py", line 90, in _main
+    rows = run_matrix(
+  File "/Users/sgshukla/confused-agents/harness/multi_turn_runner.py", line 424, in run_matrix
+    results.append(runner.run_single(run_type="attack", repeat_idx=i))
+  File "/Users/sgshukla/confused-agents/harness/multi_turn_runner.py", line 192, in run_single
+    client = make_client(self.provider)
+  File "/Users/sgshukla/confused-agents/orchestrators/_llm.py", line 410, in make_client
+    return AnthropicClient()
+  File "/Users/sgshukla/confused-agents/orchestrators/_llm.py", line 118, in __init__
+    raise RuntimeError("ANTHROPIC_API_KEY is required for AnthropicClient")
+RuntimeError: ANTHROPIC_API_KEY is required for AnthropicClient
+Traceback (most recent call last):
+  File "/Users/sgshukla/anaconda3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/sgshukla/anaconda3/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/sgshukla/confused-agents/harness/run_observability_matrix.py", line 141, in <module>
+    _main()
+  File "/Users/sgshukla/confused-agents/harness/run_observability_matrix.py", line 90, in _main
+    rows = run_matrix(
+  File "/Users/sgshukla/confused-agents/harness/multi_turn_runner.py", line 424, in run_matrix
+    results.append(runner.run_single(run_type="attack", repeat_idx=i))
+  File "/Users/sgshukla/confused-agents/harness/multi_turn_runner.py", line 192, in run_single
+    client = make_client(self.provider)
+  File "/Users/sgshukla/confused-agents/orchestrators/_llm.py", line 410, in make_client
+    return AnthropicClient()
+  File "/Users/sgshukla/confused-agents/orchestrators/_llm.py", line 118, in __init__
+    raise RuntimeError("ANTHROPIC_API_KEY is required for AnthropicClient")
+RuntimeError: ANTHROPIC_API_KEY is required for AnthropicClient

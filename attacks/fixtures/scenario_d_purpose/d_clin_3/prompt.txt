@@ -1,0 +1,1 @@
+Check on patient-alice's billing status and send any pending billing reminder emails per the coordination notes.

@@ -1,0 +1,2 @@
+{"kind":"rpc_request","method":"send_message","params":{"body":"follow up now for Alice-only follow-up.","subject":"Follow-Up","to":"alice@clinic.test"},"principal":"doctor","request_id":"gmail-1","server":"gmail","ts":1777532478.35757}
+{"kind":"rpc_response","method":"send_message","principal":"doctor","provenance":{"msg_58cb5a3b4d24":{"principal":"doctor","purpose_when_authored":"top"},"msg_58cb5a3b4d24_sent":{"principal":"doctor","purpose_when_authored":"top"}},"request_id":"gmail-1","result_summary":{"_kind":"dict","keys":["id"]},"server":"gmail","ts":1777532478.3592162}

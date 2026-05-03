@@ -1,0 +1,13 @@
+{
+  "fixture_id": "d_clin_1",
+  "approved_tools": [
+    "gmail.list_messages",
+    "gmail.read_message",
+    "gmail.send_message",
+    "calendar.list_events",
+    "calendar.read_event",
+    "calendar.create_event",
+    "drive.list_files",
+    "drive.read_file"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "fixture_id": "scenario_a_calendar__attack_04",
+  "approved_tools": [
+    "calendar.list_events",
+    "calendar.read_event",
+    "gmail.list_messages",
+    "gmail.read_message",
+    "drive.list_files",
+    "drive.read_file",
+    "drive.share_with",
+    "drive.delete_file"
+  ]
+}
